@@ -12,13 +12,13 @@ City Hospital is a **well-respected institution in the community** that lacks ce
 This made it difficult to identify trends, optimize resource allocation, and make data-driven decisions.  
 This project applies **Power Query** and **Power BI visualisation** to reveal:  
 
-## Dashboard 1##
-- What is the trend of revenue generation over the given time period 💰  
-- Which Specialties yielded thehighest and lowest revenue 💸  
-- How much revenue does each procedure category make in hospital  👑  
-- What is the total revenue, expenses and profit margin and how many transaction was this achieved 📉
+## Dashboard 1
+-  What is the trend of revenue generation over the given time period 💰  
+-  Which Specialties yielded thehighest and lowest revenue 💸  
+-  How much revenue does each procedure category make in hospital  👑  
+-  What is the total revenue, expenses and profit margin and how many transaction was this achieved 📉
 
-  ## Dashboard 2##
+  ## Dashboard 2
   - Who are the top revenue generating doctor in the hospital
   - Who are the top 5 Patients that impacted on Revenue generation
   - How many doctors are in each specialty and how many patients patronize each of these specialities
@@ -30,10 +30,10 @@ By merging data cleaning,Power query, Data modelling and dashboard storytelling,
 ---
 
 ## 🎯 Steps to take 
-1. Data cleaning and integration : This process involves identifying and correcting inconsistencies, missing/null values, and duplicates within the data set. 
-2. Data Modelling: This will establish a logical structure for the hospital's data. The model defined the relationships between different data points, allowing for efficient querying and analysis.   
-3. DAX Calculations and Dashboard Building: DAX calculations were created to Analyze key performance indicator (KPIs). The dashboard will provide real insights into the hospital's perfomance. 
-4. Insights and Recommendations : After analyzing the data, you will identify several key insights that will help you generate data-driven recommendations.
+1. **Data cleaning and integration** : This process involves identifying and correcting inconsistencies, missing/null values, and duplicates within the data set. 
+2. **Data Modelling**: This will establish a logical structure for the hospital's data. The model defined the relationships between different data points, allowing for efficient querying and analysis.   
+3. **DAX Calculations and Dashboard Building**: DAX calculations were created to Analyze key performance indicator (KPIs). The dashboard will provide real insights into the hospital's perfomance. 
+4. **Insights and Recommendations** : After analyzing the data, you will identify several key insights that will help you generate data-driven recommendations.
 
 ---
 
@@ -41,23 +41,28 @@ By merging data cleaning,Power query, Data modelling and dashboard storytelling,
 
 | Table | Description |
 |--------|--------------|
-| `customers` | Customer demographics and loyalty details |
-| `subscriptions` | Order history: quantity, discount, total value |
-| `bundles` | Bundle category, size, and active status |
-| `payments` | Payment method, outcome, and status |
-| `support_tickets` | Customer complaints, issue types, and ratings |
+| `Doctor's Dimension` |Doctor's ID and demographics |
+| `Patient's Dimension` | Patient's ID and demographics |
+| `Procedure's Dimension` | Procedure ID, name, category and description |
+| `Location's Dimension` |Location ID,country, city, state and zip code |
+| `Date` |month, day, and year|
 
-📄 *Raw data sourced from CSV files was well formatted/normalised and loaded into PostgreSQL for analysis.*
+| Table | Description |
+|--------|--------------|
+| `Calculated Measures` |Transaction ID, Revenue and Expenses |
+
+📄 *Raw data sourced from EXcel file was imported into Power query for analysis and  modelling first, before visualization*   
 
 ---
 
-## ⚙️ Project Workflow  
 
-1. **Database Restoration** – Imported and normalised CSV data into PostgreSQL  
-2. **SQL Exploration** – Wrote analytical queries to extract business KPIs  
-3. **Data Integration** – Exported query results into Power BI  
-4. **Dashboard Development** – Created KPIs, filters, and data relationships  
-5. **Insights & Recommendations** – Summarized findings for decision-making  
+## ⚙️ KPIs
+
+1. **Total Revenue** – =SUM(revenue amount) 
+2. **Total Expenses** – =SUM(expenses amount) 
+3. **Total Profit** – =(Total Revenue - Total Expenses Amount) 
+4. **Profit Margin** – 
+5. **How many Doctors and patients does the hospital have on record** – Summarized findings for decision-making  
 
 ---
 

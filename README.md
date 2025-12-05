@@ -23,7 +23,7 @@ This project applies **Power Query** and **Power BI visualisation** to reveal:
   - Who are the top 5 Patients that impacted on Revenue generation
   - How many doctors are in each specialty and how many patients patronize each of these specialities
   - What is the trend of patients visits to the hospital over time
-  - By gender description ive the total No.Doctors and patients in the hospital.
+  - By gender description give the total No.Doctors and patients in the hospital.
     
 By merging data cleaning,Power query, Data modelling and dashboard storytelling, this project transforms raw data into a roadmap for smarter growth and retention.  
 
@@ -127,21 +127,22 @@ By merging data cleaning,Power query, Data modelling and dashboard storytelling,
 
 
 ### Trends and Insights of Dashboard 2
-1️⃣ Top Revenue Doctors - 80% of revenue from Wellness & Essentials
-2️⃣ Customer Spend - Gold-tier customers lead average spend
-3️⃣ Payment Performance - 728 failed payments (payment system improvements needed)
-4️⃣ Discount Impact - 14% discount — requires optimisation for profitability
-5️⃣ Feedback Focus - Product quality and billing issues drive dissatisfaction
-6️⃣ Regional Growth - Port Harcourt & Enugu have the strongest engagement
+1️⃣ Top 5 Revenue Doctors - Ava Adams ($25K), Liam Turner ($20K), Benjamin ($16K), Emma ($13k), Williams ($12K) 
+2️⃣ Top 5 Patients - Harper ($17K), Ethan ($15K), Mia wills ($13K), Mia Ada ($12k), Olivia ($12k)
+3️⃣ Nos of doctors in each specialty and number of patients patronize each of these specialities  
+<img width="309" height="159" alt="image" src="https://github.com/user-attachments/assets/7852d350-27cf-4aa4-bc4a-781b3f30c8c7" />  
+4️⃣ Trend of patients visits to the hospital over time  
+<img width="450" height="199" alt="image" src="https://github.com/user-attachments/assets/1e848cf3-2cda-4502-89ef-01aaea2c064d" />  
+5️⃣  By gender description the total No.Doctors and patients in the hospital  
+<img width="252" height="218" alt="image" src="https://github.com/user-attachments/assets/e0150fb3-01ac-4081-929d-aef196a27acc" /> 
 
 
-### 📈 Recommendations
-1️⃣ Double down with more commitment on Top Categories by investing in Wellness & Essentials product innovation.
-2️⃣ Optimise discount strategy by capping at ≤15% for sustainable margins.
-3️⃣ Reduce failed payments by auditing payment gateways and retry logic.
-4️⃣ Enhance product quality by strengthening supplier and quality control processes.
-5️⃣ Reward loyal customers through personalised offers for Gold and Platinum tiers.
-6️⃣ Scale regional campaigns by prioritising Port Harcourt & Enugu for local outreach.
+### 📈 Recommendations  
+1️⃣**Expand high-performing Dermatology services** by adding more procedures, equipment, or marketing focus to maximize the specialty generating the highest revenue.
+2️⃣**Investigate the sharp revenue drop from 2022 to 2023** to identify causes (reduced patient volume, pricing issues, staffing gaps) and implement corrective actions to restore growth.
+3️⃣**Reassess low-performing Pediatrics services**, adjusting pricing, reducing resource allocation, or redesigning offerings to improve contribution or eliminate inefficiencies.
+4️⃣**Improve profit margin by reducing operational expenses** (supplies, overhead, scheduling inefficiencies) and introducing higher-value or bundled service packages to lift revenue without major cost increases.
+
 
 
 ### 🧰 Tools & Technology

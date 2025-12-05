@@ -129,16 +129,16 @@ By merging data cleaning,Power query, Data modelling and dashboard storytelling,
 ### Trends and Insights of Dashboard 2    
 1️⃣ Top 5 Revenue Doctors - Ava Adams ($25K), Liam Turner ($20K), Benjamin ($16K), Emma ($13k), Williams ($12K)     
 2️⃣ Top 5 Patients - Harper ($17K), Ethan ($15K), Mia wills ($13K), Mia Ada ($12k), Olivia ($12k)   
-3️⃣ Nos of doctors in each specialty and number of patients patronize each of these specialities    
+3️⃣ Nos of doctors in each specialty and number of patients patronize each of these specialities      
 <img width="309" height="159" alt="image" src="https://github.com/user-attachments/assets/7852d350-27cf-4aa4-bc4a-781b3f30c8c7" />    
-4️⃣ Trend of patients visits to the hospital over time    
+4️⃣ Trend of patients visits to the hospital over time      
 <img width="450" height="199" alt="image" src="https://github.com/user-attachments/assets/1e848cf3-2cda-4502-89ef-01aaea2c064d" />   
-5️⃣  By gender description the total No.Doctors and patients in the hospital    
+5️⃣  By gender description the total No.Doctors and patients in the hospital      
 <img width="252" height="218" alt="image" src="https://github.com/user-attachments/assets/e0150fb3-01ac-4081-929d-aef196a27acc" />   
 
 
-### 📈 Recommendations  
-1️⃣**Expand high-performing Dermatology services** by adding more procedures, equipment, or marketing focus to maximize the specialty generating the highest revenue.  
+### 📈 Recommendations   
+1️⃣**Expand high-performing Dermatology services** by adding more procedures, equipment, or marketing focus to maximize the specialty generating the highest revenue.    
 2️⃣**Investigate the sharp revenue drop from 2022 to 2023** to identify causes (reduced patient volume, pricing issues, staffing gaps) and implement corrective actions to restore growth.  
 3️⃣**Reassess low-performing Pediatrics services**, adjusting pricing, reducing resource allocation, or redesigning offerings to improve contribution or eliminate inefficiencies.  
 4️⃣**Improve profit margin by reducing operational expenses** (supplies, overhead, scheduling inefficiencies) and introducing higher-value or bundled service packages to lift revenue without major cost increases.  
@@ -149,7 +149,7 @@ By merging data cleaning,Power query, Data modelling and dashboard storytelling,
 Tools used and their purposes  
 1️⃣ Excel - To effectively format the dataset before converting to CSV and subsequently importing it into PostgreSQL for analysis.  
 2️⃣ Power BI - Dashboard design and KPI visualisation  
-3️⃣ DAX - Custom measures (example, Discount Impact% and more)  
+3️⃣ DAX - Custom measures (Total Revenue, total expenses, total profit and profit margin)  
 
 
 ⚠️ Disclaimer  

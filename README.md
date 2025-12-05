@@ -96,7 +96,7 @@ By merging data cleaning,Power query, Data modelling and dashboard storytelling,
  Here is an  example of Null values in power query
 <img width="740" height="193" alt="image" src="https://github.com/user-attachments/assets/ee21f911-2e92-40b6-9028-c63a10b5e77a" />
 
-## Data modelling - Using Schemas model to connect all the Primary Keys in the various dimesion table to the Fact sheet to exist as Foreign keys 
+## Data modelling - Using Schemas to connect all the Primary Keys in the various dimesion table to the Fact sheet to exist as Foreign keys 
 <img width="440" height="255" alt="image" src="https://github.com/user-attachments/assets/e66e12f2-c42c-48cf-aa75-429f7bb267aa" />  
 
 ## DAX Calculation for Measures
